@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciclo Menstrual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loading.css">
+</head>
+<body onload="esconderCarregamento()">
+    <div id="tela-loading">
+        carregando... 
+        <div class="spiner"></div>
+    </div>
+
+    <div class="quadrado"></div>
+    <div class="caixa">
+        <h1>Calcular a proxima data</h1>
+        <h3>insira a data: </h3>
+        <input type="date" id="date">
+        <button onclick="calcular()">enviar</button>
+        <p id="resultado"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="loading.js"></script>
+</body>
+</html>
